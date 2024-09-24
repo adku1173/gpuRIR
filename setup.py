@@ -1,3 +1,4 @@
+"""Script is based on the cmake_example of pybind11 by Dean Moldovan: https://github.com/pybind/cmake_example"""
 import os
 import re
 import sys
