@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=42", "wheel", "cmake>=3.12", "ninja"]
+requires = ["setuptools", "wheel", "cmake>=3.12"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -24,4 +24,4 @@ classifiers = [
 packages = ["gpuRIR"]
 
 [project.optional-dependencies]
-dev = ["pytest", "cmake", "ninja"]
+dev = ["pytest", "cmake"]
