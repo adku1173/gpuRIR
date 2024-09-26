@@ -24,4 +24,5 @@ classifiers = [
 packages = ["gpuRIR"]
 
 [project.optional-dependencies]
-dev = ["pytest"]
+full = ["numpy", "scipy", "matplotlib"]
+dev = ["gpuRIR[full]", "pytest"]
